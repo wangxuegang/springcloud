@@ -14,7 +14,7 @@ spring:
       server:
         git:
           #远程获取git配置信息
-          uri: https://github.com/wangxuegang/summary.git
+          uri: https://github.com/wangxuegang/springcloud.git
   application:
     #服务名称
     name: config-server
