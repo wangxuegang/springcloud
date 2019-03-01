@@ -29,7 +29,7 @@ public class EurekaClientApplication {
 		SpringApplication.run(EurekaClientApplication.class, args);
 	}
 	
-	/** 服务提供方端口号 （在application.yml中取值）*/
+	/** 服务提供方端口号 （在application.properties中取值）*/
 	@Value("${server.port}")
 	String port;
 	
